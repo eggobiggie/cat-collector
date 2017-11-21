@@ -1,0 +1,91 @@
+body {
+  background-image: url("../images/knitting250px_@2X.png");
+}
+
+.innerText {
+  font-family: 'Amatic SC', cursive;
+}
+
+.collectorTitle {
+  font-weight: bold;
+  padding-top: 20px;
+  font-size: 80px;
+}
+
+.collectorText {
+  font-size: 30px;
+}
+
+.title {
+  background-color: #ffffff;
+  width: 400px;
+  height: 200px;
+}
+
+.instructions {
+  background-color: #ffffff;
+  height: 220px;
+  width: 65%;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.instructionText {
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.initialNumberBox,
+.winLossBox {
+  margin-top: 10px;
+  height: 150px;
+  width: 100%;
+  background-color: #ffffff;
+  float: left;
+}
+
+.winLossBox {
+  float: left;
+  padding-top: 55px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.initialNumberBox {
+  padding-top: 25px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+#blue-cat,
+#green-cat {
+  margin: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+#purple-cat {
+  margin-top: 10px;
+  margin-left: 15px;
+  height: 80%;
+  width: 80%;
+}
+
+#red-cat {
+  margin-top: 10px;
+  height: 90%;
+  width: 90%;
+}
+
+.totalScoreBox {
+  background-color: #ffffff;
+  width: 400px;
+  height: 175px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 40px;
+}
