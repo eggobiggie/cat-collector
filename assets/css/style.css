@@ -14,6 +14,7 @@ body {
 
 .collectorText {
   font-size: 30px;
+  font-weight: bold;
 }
 
 .title {
@@ -46,7 +47,7 @@ body {
 
 .winLossBox {
   float: left;
-  padding-top: 55px;
+  padding-top: 10px;
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
   font-size: 30px;

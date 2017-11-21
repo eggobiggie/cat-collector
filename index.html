@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Archivo+Black|Open+Sans+Condensed:300,700" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
   <title>Cat Collector Game</title>
 </head>
 <body>
@@ -33,34 +35,35 @@
     <div class="row">
       <div class="col-md-4 col-md-offset-2 col-sm-6">
         <div class="center-block initialNumberBox">
-          <div class="text-center" id="initial-number">
-            39
+          <div class="text-center">
+            <p id="initial-number"></p>
           </div>
         </div>
       </div>
       <div class="col-md-4 col-sm-4">
         <div class="center-block winLossBox">
-          <div class="text-center" id="win-text">
-              Wins:
+          <div class="text-center" id="win-loss-text"></div>
+          <div class="text-center">
+              <p>Wins:<span id="win-text"></span></p>
           </div>
-          <div class="text-center" id="loss-text">
-              Losses:
+          <div class="text-center">
+              <p>Losses:<span id="loss-text"></span></p>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2 col-md-offset-2 col-sm-3">
-        <img src="./assets/images/bluecat.jpg" alt="Blue Cat Head" id="blue-cat" class="img-responsive">
+        <img src="./assets/images/bluecat.jpg" alt="Blue Cat Head" id="blue-cat" class="img-responsive catImage">
       </div>
       <div class="col-md-2 col-sm-3">
-        <img src="./assets/images/greencat.jpg" alt="Green Cat Head" id="green-cat" class="img-responsive">
+        <img src="./assets/images/greencat.jpg" alt="Green Cat Head" id="green-cat" class="img-responsive catImage">
       </div>
       <div class="col-md-2 col-sm-3">
-        <img src="./assets/images/purplecat.jpg" alt="Purple Cat Head" id="purple-cat" class="img-responsive">
+        <img src="./assets/images/purplecat.jpg" alt="Purple Cat Head" id="purple-cat" class="img-responsive catImage">
       </div>
       <div class="col-md-2 col-sm-3">
-        <img src="./assets/images/redcat.jpg" alt="Red Cat Head" id="red-cat" class="img-responsive">
+        <img src="./assets/images/redcat.jpg" alt="Red Cat Head" id="red-cat" class="img-responsive catImage">
       </div>
     </div>
     <div class="row">
@@ -75,13 +78,6 @@
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
   </div>
 </body>
 </html>
