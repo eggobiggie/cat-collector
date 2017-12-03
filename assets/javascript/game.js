@@ -50,7 +50,6 @@ $("#red-cat").on("click", function() {
 });
 
 //Win or Loss if/else statement
-var didWeWin = false;
 
 $(".catImage").on("click", function() {
   if (totalScoreAdded === initialNumber) {
